@@ -10,10 +10,9 @@
     <h1>腾讯视频</h1>
     <div>
         <video width="800" height="500" controls="controls">
-            <% urlList.forEach(function (url){%>
-            <source src="<%= url %>">
-            <% }); %>
-            <!-- <source src="movie.mp4" type="video/mp4"> -->
+            <!-- <% urlList.forEach(function (url){%> -->
+            <source src="<%= urlList[3] %>">
+            <!-- <% }); %> -->
             Your browser does not support the video tag.
         </video>
     </div>
